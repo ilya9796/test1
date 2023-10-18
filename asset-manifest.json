@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ilya9796/test1.git/static/css/main.883a828c.css",
-    "main.js": "/ilya9796/test1.git/static/js/main.611d7211.js",
-    "static/media/baner.png": "/ilya9796/test1.git/static/media/baner.b46b70a1153c0893506c.png",
-    "static/media/b1.png": "/ilya9796/test1.git/static/media/b1.a3b7988e1d8686e9e7b5.png",
-    "static/media/b2.png": "/ilya9796/test1.git/static/media/b2.79c8da56533783d26b96.png",
-    "static/media/b3.png": "/ilya9796/test1.git/static/media/b3.ecf8b1e01d25a9debde5.png",
-    "static/media/b4.png": "/ilya9796/test1.git/static/media/b4.c564ac905ed3f4db8d8e.png",
-    "static/media/post_1.png": "/ilya9796/test1.git/static/media/post_1.fb8354cba0bce10f773f.png",
-    "index.html": "/ilya9796/test1.git/index.html",
-    "main.883a828c.css.map": "/ilya9796/test1.git/static/css/main.883a828c.css.map",
-    "main.611d7211.js.map": "/ilya9796/test1.git/static/js/main.611d7211.js.map"
+    "main.css": "/ilya9796/ilya9796.github.io/test1.git/static/css/main.883a828c.css",
+    "main.js": "/ilya9796/ilya9796.github.io/test1.git/static/js/main.aada3f60.js",
+    "static/media/baner.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/baner.b46b70a1153c0893506c.png",
+    "static/media/b1.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/b1.a3b7988e1d8686e9e7b5.png",
+    "static/media/b2.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/b2.79c8da56533783d26b96.png",
+    "static/media/b3.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/b3.ecf8b1e01d25a9debde5.png",
+    "static/media/b4.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/b4.c564ac905ed3f4db8d8e.png",
+    "static/media/post_1.png": "/ilya9796/ilya9796.github.io/test1.git/static/media/post_1.fb8354cba0bce10f773f.png",
+    "index.html": "/ilya9796/ilya9796.github.io/test1.git/index.html",
+    "main.883a828c.css.map": "/ilya9796/ilya9796.github.io/test1.git/static/css/main.883a828c.css.map",
+    "main.aada3f60.js.map": "/ilya9796/ilya9796.github.io/test1.git/static/js/main.aada3f60.js.map"
   },
   "entrypoints": [
     "static/css/main.883a828c.css",
-    "static/js/main.611d7211.js"
+    "static/js/main.aada3f60.js"
   ]
 }
