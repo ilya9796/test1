@@ -1,0 +1,26 @@
+.review {
+	background: #f8f8fa;
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	@media (min-width: 768px) {
+		padding-top: 60px;
+		padding-bottom: 73px;
+		gap: 16px;
+	}
+	p {
+		color: #202326;
+		font-family: Onest;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%;
+		letter-spacing: 0.16px;
+		@media (min-width: 768px) {
+			font-size: 16px;
+			line-height: 160%;
+		}
+	}
+}

@@ -1,0 +1,122 @@
+.modal {
+	transition: all 0.5s;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(32, 35, 38, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	input {
+		padding: 17px 15px 18px 15px;
+		border-radius: 10px;
+		border: 1px solid #ededf1;
+		background: #fff;
+		width: 100%;
+	}
+}
+
+.modal__article {
+	padding: 17px 26px 20px 26px;
+	width: 320px;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0px 18px 60px 0px rgba(0, 0, 0, 0.05);
+	position: relative;
+	@media (min-width: 768px) {
+		width: 380px;
+	}
+}
+
+.modal__open {
+	transform: scaleY(1);
+	opacity: 1;
+}
+.modal__close {
+	transform: scaleY(0);
+	opacity: 0;
+}
+
+.modal__recall {
+	color: #202326;
+	font-family: Onest;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 140%;
+	letter-spacing: 0.12px;
+	margin-top: 8px;
+}
+
+.modal__btn {
+	width: 100%;
+	padding: 10px 20px 12px 20px;
+	border-radius: 100px;
+	background: #2d1aa7;
+	color: #fff;
+	font-family: Onest;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 18px;
+	margin-top: 22px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.modal__subtitle {
+	max-width: 238px;
+	margin: 60px auto 0 auto;
+	color: #202326;
+	text-align: center;
+	font-family: Onest;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 160%;
+	letter-spacing: 0.1px;
+
+	a {
+		color: #2d1aa7;
+		transition: all 0.5s;
+		text-decoration: none;
+		// margin-left: 4px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.modal__emaile {
+	margin-top: 12px;
+}
+
+.modal__closeIcon {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	cursor: pointer;
+	transition: all 0.5s;
+	transform-origin: center;
+	&:hover {
+		transform: scaleX(-1);
+	}
+}
+
+.modal__name {
+	position: relative;
+	&::after {
+		content: "Как вас зовут";
+		position: absolute;
+		top: 4px;
+		left: 15px;
+		color: #777;
+		font-family: Onest;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 14px;
+	}
+}

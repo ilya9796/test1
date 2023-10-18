@@ -1,0 +1,33 @@
+.baner {
+	padding-top: 20px;
+	padding-bottom: 44px;
+	display: flex;
+	flex-direction: column;
+	background: #f1f1f3;
+	gap: 18px;
+
+	@media (min-width: 768px) {
+		padding-top: 60px;
+		padding-bottom: 73px;
+		gap: 13px;
+	}
+	p {
+		color: #202326;
+		font-family: Onest;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 18px; /* 150% */
+		span {
+			color: #2d1aa7;
+			text-decoration-line: underline;
+		}
+	}
+	img {
+		height: 280px;
+		@media (min-width: 768px) {
+			width: auto;
+			height: auto;
+		}
+	}
+}

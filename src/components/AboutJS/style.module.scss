@@ -1,0 +1,71 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+	&::after {
+		position: absolute;
+		content: "";
+		height: 2px;
+		background: #ececf3;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 82%;
+	}
+
+	@media (min-width: 768px) {
+		gap: 30px;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+}
+.about__body {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+	@media (min-width: 768px) {
+		flex-direction: row;
+		gap: 20px;
+	}
+}
+.about__text {
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+
+	@media (min-width: 768px) {
+		gap: 26px;
+	}
+	p {
+		color: #202326;
+		font-family: Onest;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 140%;
+		font-size: 18px;
+
+		@media (min-width: 768px) {
+			font-size: 22px;
+		}
+	}
+	span {
+		color: #777;
+		font-family: Onest;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px; /* 150% */
+		letter-spacing: 0.16px;
+
+		@media (min-width: 768px) {
+			font-size: 16px;
+		}
+	}
+}
+.aboutQuotes {
+	min-width: 38px;
+	min-height: 38px;
+}
